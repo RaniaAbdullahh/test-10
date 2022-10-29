@@ -10,3 +10,7 @@ class handler(BaseHTTPRequestHandler):
     msg="welcome amigos"
     self.wfile.write(msg.encode())
     return
+
+
+
+    
